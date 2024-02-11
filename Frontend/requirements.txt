@@ -1,0 +1,4 @@
+This is an example sentence.
+Each line in the text file represents a separate document or sentence.
+You can have multiple lines of text data in the file.
+Make sure the text is clean and properly formatted for training.

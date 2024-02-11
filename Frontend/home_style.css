@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background: linear-gradient(120deg,#50bb33, #2b99cc);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.center {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Separate the containers */
+    align-items: center;
+    margin-top: 200px; /* Adjust as needed */
+}
+
+.chatbox-container, .community-container {
+    width: 500px; /* Make the containers wider */
+    height: 500px; /* Make the containers taller */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.chatbox-container:hover, .community-container:hover {
+    background-color: #f0f0f0;
+}
+
+.chatbox-container h2, .community-container h2 {
+    margin-top: 100px; /* Adjust as needed */
+}
+
+.chatbox-container img, .community-container img {
+    width: 120px; /* Make the icon larger */
+    height: 120px; /* Make the icon taller */
+    margin: 50px auto; /* Adjust the icon margin */
+    display: block;
+}

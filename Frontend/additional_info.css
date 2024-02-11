@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.additional-info-box {
+    border: 5px solid #333; /* Thick border */
+    padding: 20px; /* Good amount of padding */
+    text-align: center;
+}

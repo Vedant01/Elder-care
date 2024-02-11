@@ -1,0 +1,51 @@
+/* request_styles.css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background: linear-gradient(120deg,#ca5115, #e52387);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+/* Center the container vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for input containers */
+.input-container {
+    text-align: center;
+    margin-bottom: 15px; /* Add some space between input containers */
+    width: 100%; /* Ensure input containers span full width */
+}
+
+/* Style for user input fields */
+.user-input {
+    padding: 6px; /* Reduce padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%; /* Reduce width */
+    box-sizing: border-box; /* Include padding and border in input field's width */
+}
+
+/* Style for buttons */
+.send-button,
+.voice-button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.send-button:hover,
+.voice-button:hover {
+    background-color: #45a049;
+}

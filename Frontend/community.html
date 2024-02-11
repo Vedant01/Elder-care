@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home_style.css">
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="chatbox-container" onclick="redirectToChatbox()">
+                <h2>REQUEST</h2>
+                <img src="request.png" alt="Chatbox Icon">
+            </div>
+            <div class="community-container" onclick="redirectToCommunity()">
+                <h2>RESPONSE</h2>
+                <img src="response.png" alt="Community Icon">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function redirectToChatbox() {
+            window.location.href = "request.html";
+        }
+        
+        function redirectToCommunity() {
+            // Add the URL for the community page
+            window.location.href = "response.html";
+        }
+    </script>
+</body>
+</html>

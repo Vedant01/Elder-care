@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Page</title>
+    <link rel="stylesheet" href="request_styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="user-input" placeholder="Enter your name...">
+        </div>
+        <div class="input-container">
+            <label for="location">Location:</label>
+            <input type="text" id="location" class="user-input" placeholder="Enter your location...">
+        </div>
+        <div class="input-container">
+            <label for="time">Time:</label>
+            <input type="text" id="time" class="user-input" placeholder="Enter the time...">
+        </div>
+        <div class="input-container">
+            <label for="Main-Request">Main Request:</label>
+            <input type="text" id="Main-Request" class="user-input" placeholder="Enter Main Request...">
+        </div>
+        <div class="input-container">
+            <label for="additional-info">Additional Information:</label>
+            <input type="text" id="additional-info" class="user-input" placeholder="Enter additional information...">
+        </div>
+        
+        
+        <button onclick="sendRequestText()" class="send-button">Send Text</button>
+        <button onclick="startVoiceInput()" class="voice-button">&#128266;</button>
+    </div>
+    <script src="request_script.js"></script>
+</body>
+</html>
