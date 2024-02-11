@@ -15,7 +15,7 @@ with open("elder-token.json") as f:
 CLIENT_ID = secrets["clientId"]
 CLIENT_SECRET = secrets["secret"]
 ASTRA_DB_KEYSPACE = "default_keyspace"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "enter key here"
 
 auth_provider = PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)
 cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
